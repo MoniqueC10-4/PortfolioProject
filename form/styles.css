@@ -1,0 +1,32 @@
+body {
+    background: lightcyan;
+    font-size: larger;
+    font-weight: 600;
+}
+
+legend {
+    text-align: left;
+}
+
+label {
+    size: 500px;
+}
+    
+fieldset {
+    text-align: center;
+    
+}
+input {
+    background: lavender;
+    height: 30px;
+    width: 200px;
+}
+    
+button {
+    color: purple;
+    background: cyan;
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    font-weight: 700;
+}

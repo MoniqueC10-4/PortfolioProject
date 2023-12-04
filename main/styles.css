@@ -1,0 +1,28 @@
+.header {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    background: lightcyan;
+}
+nav {
+    display: grid;
+    font-size: 30px;
+}
+.page {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px 50px;
+    background: lavender; 
+}
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: green;
+    align-self: stretch;
+}
+
+.model {
+    display: grid;
+    grid-column: 2 / 4;
+    border: 2px solid black 
+}
